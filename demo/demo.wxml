@@ -1,0 +1,12 @@
+<!--pages/demo/demo.wxml-->
+<scroll-view class="scbg" scroll-y='true'>
+    <view class="box">
+       
+            <view class="firstblock">
+             <text class="date">2021-11-10</text>
+             <button class="check" size="mini">查看
+            </button>
+            </view>
+         
+    </view>
+</scroll-view>
