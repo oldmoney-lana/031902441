@@ -1,0 +1,11 @@
+<!--pages/demo/demo.wxml-->
+<scroll-view class="scbg" scroll-y='true'>
+<block wx:for="{{list}}" wx:for-item="itemName" wx:for-index="id">
+    <view class="box">
+            <view class="firstblock">
+             <text class="date">{{itemName.time}}</text>
+             <button class="check" size="mini">查看</button>
+            </view>
+    </view>
+</block>
+</scroll-view>

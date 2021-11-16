@@ -1,0 +1,35 @@
+/* pages/demo/demo.wxss */
+page{
+    background-color: #FFFF;
+}
+.scbg{
+    background-color: #EFEFEF;
+    width: 100%;
+    height: 100%;
+    left: 0rpx;
+    right: 0rpx;
+    top: 0rpx;
+    position: absolute;
+}
+
+.box{
+    width: 100%;
+    background-color: #BEEAFD;
+    padding-top: 30rpx;
+    border-bottom: 30rpx solid #EFEFEF;
+}
+
+.firstblock{
+    height: 110rpx;
+    margin-left: 6%;
+    margin-right: 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.date{
+    font-size: 50rpx;
+    width: 75%;
+}
+
